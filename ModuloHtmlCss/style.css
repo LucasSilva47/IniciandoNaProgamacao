@@ -1,46 +1,71 @@
-.tituloPrincipal{
-  padding-left: 20px;
+header {
+  background: #bbbbbb;
+  padding: 20px 0;
+
 }
+
+.titulo {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.tituloPrincipal {
+  position: absolute;
+  top: 110px;
+  right: 300px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
 /* marcador serve para apenas uma tag marcador == id... e tem que ter o jogo da velha #*/
-#banner{
-   width: 100%;
-  /* margin: 10px; */ 
+#banner {
+  width: 100%;
 }
-.principal{
+
+.principal {
   background: #CCCCCC;
   padding: 30px;
 }
-.tituloCentralizado{
-  text-align: center;  
+.principal h2{
+  font-size: 22px;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: underline;
 }
-p {
-    text-align: center;
 
+.principal p{
+  text-align: center;
 }
-#missao{
-    font-size: 20px;
+#missao {
+  font-size: 20px;
 }
-em strong{
-   color: #FF0000;
+
+em strong {
+  color: #FF0000;
 }
+
 /* classe serve para varias tags */
-.itens{
+.itens {
   font-style: italic;
 }
-.beneficios{
+
+.beneficios {
   background-color: #FFFFFF;
   padding: 20px;
 }
 
-ul{
+ul {
   display: inline-block;
   vertical-align: top;
   width: 20%;
   margin-right: 15%;
 }
-.imagemBeneficios{
+
+.imagemBeneficios {
   width: 50%;
 }
+
 footer {
   text-align: center;
   background: url("bg.jpg");
